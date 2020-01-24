@@ -9,10 +9,10 @@ import java.util.Random;
  */
 public class PrimeCollection 
 {
-	private ArrayList<Integer> primeprimeNumbers;
+	private ArrayList<Integer> primeNumbers;
 	
 	public PrimeCollection() {
-		primeprimeNumbers = new ArrayList<>();
+		primeNumbers = new ArrayList<>();
 	}
 	
     public static void main( String[] args )
@@ -28,8 +28,8 @@ public class PrimeCollection
     public void initRandom(int n, int m) {
     	
     	for(int i = 0; i < n; i++) {
-    		Random randomprimeNumber = new Random();
-    		primeprimeNumbers.add(randomprimeNumber.nextInt(m+1));
+    		Random random = new Random();
+    		primeNumbers.add(random.nextInt(m+1));
     	}
     }
     
@@ -50,9 +50,9 @@ public class PrimeCollection
     
     public void printPrimes() {
     	
-    	int size = primeprimeNumbers.size();
+    	int size = primeNumbers.size();
     	for(int i = 0; i < size; i++) {
-    		int primeNumber = primeprimeNumbers.get(i);
+    		int primeNumber = primeNumbers.get(i);
     		if(PrimeCollection.isPrime(primeNumber)) {
     			System.out.println(primeNumber);
     		}
