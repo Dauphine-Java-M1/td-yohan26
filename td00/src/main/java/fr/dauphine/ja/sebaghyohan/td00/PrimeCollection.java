@@ -1,4 +1,4 @@
-package fr.dauphine.ja.serrafgabriel.td00;
+package fr.dauphine.ja.sebaghyohan.td00;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -9,10 +9,10 @@ import java.util.Random;
  */
 public class PrimeCollection 
 {
-	private ArrayList<Integer> numbers;
+	private ArrayList<Integer> primeprimeNumbers;
 	
 	public PrimeCollection() {
-		numbers = new ArrayList<>();
+		primeprimeNumbers = new ArrayList<>();
 	}
 	
     public static void main( String[] args )
@@ -28,8 +28,8 @@ public class PrimeCollection
     public void initRandom(int n, int m) {
     	
     	for(int i = 0; i < n; i++) {
-    		Random randomNumber = new Random();
-    		numbers.add(randomNumber.nextInt(m+1));
+    		Random randomprimeNumber = new Random();
+    		primeprimeNumbers.add(randomprimeNumber.nextInt(m+1));
     	}
     }
     
@@ -50,11 +50,11 @@ public class PrimeCollection
     
     public void printPrimes() {
     	
-    	int size = numbers.size();
+    	int size = primeprimeNumbers.size();
     	for(int i = 0; i < size; i++) {
-    		int number = numbers.get(i);
-    		if(PrimeCollection.isPrime(number)) {
-    			System.out.println(number);
+    		int primeNumber = primeprimeNumbers.get(i);
+    		if(PrimeCollection.isPrime(primeNumber)) {
+    			System.out.println(primeNumber);
     		}
     	}
     }
