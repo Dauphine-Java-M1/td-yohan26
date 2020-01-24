@@ -1,0 +1,58 @@
+Sebagh Yohan
+TD1
+
+Exercice 1:
+Question 4 : Version de Maven 
+Apache Maven 3.6.0
+
+Question 5 : Le groupId est l'identifiant du groupe, à l'origine du projet. GroupId suit les mêmes règles de nommage que les packages Java (exemple : fr.masociete.monprojet), et on choisit généralement comme groupId le nom du top package du projet.
+
+L'artifactId est l'identifiant du projet au sein de ce groupe.
+
+L'artifactId est utilisé par défaut pour construire le nom de l'artefact final (exemple : pour un artifactId=monprojet, le nom du fichier jar généré sera monprojet-version.jar). 
+
+Question 6 : Repertoire target contient le dossier classes et maven-status
+
+Question 8 : class path est un parametre passe a une achine virtuelle java qui definit le chemin d'acces au repertoire ou se trouvent les classes et les packages java afin qu'elle les execute
+
+Exercice 2:
+Question 1 : erreur :  aucun attribut manifest principal dans target/td00-1.0-SNAPSHOT.jar
+
+Exercie 3:
+Question 3 cela transforme sysout en System.out.println();
+
+Question 4 : cela donne la possibilite de choisir entre la fonction toStr ou toString
+
+Question 5 : creer la fonction main
+
+Question 6 : permet de creer les getter et les setters toto
+
+Question 7 : selectionne toute les occurences.
+
+TD2 
+
+Exo1:
+Question 2 : Les fichiers sources sont PrimeCollection.java et pom.xml et RESPONSES.TXT
+Question 5 : on observe la différence qui à été apporté au fichier source par rapport à celui qu'on a déposé précédemment
+Question 8 : le hash est cb91e1924fbfef71ec953dcb37e3b12907547b60
+
+Exo2:
+Question 3 : gitk représente les deux dépots synchronisés par le texte "master-remote/origin/master"
+Question 5 : git me bloque car le code en ligne n'a pas été mis a jour dans mon dépot local
+car il y'a un conflit sur le fichier RESPONSES.txt et il me demande de choisir entre les modification apporté par le commit d'avant et celui de maintenant 
+	! [rejected]        master -> master (fetch first)
+	error: failed to push some refs to 'https://github.com/Dauphine-Java-M1/td-yohan26.git'
+	hint: Updates were rejected because the remote contains work that you do
+	hint: not have locally. This is usually caused by another repository pushing
+	hint: to the same ref. You may want to first integrate the remote changes
+	hint: (e.g., 'git pull ...') before pushing again.
+	hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Question 6 : il contient les modifications apporté dans RESPONSES.txt du dépot cloné
+Question 7 : ça aurait crée un conflit et il aurait fallu choisir entre les modifications apporté dans la même ligne afin d'en garder qu'une
+
+EXO3:
+Question 2 : On observe une petite fenetre qui s'ouvres sur le coté et qui affiche le résultat des tests
+	Si on change true par false on un une faillure dans les tests
+	
+
+
